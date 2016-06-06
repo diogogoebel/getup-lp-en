@@ -2,4 +2,4 @@
 
 source ${STI_SCRIPTS_PATH}/assemble
 
-if $(grep -q success /tmp/src/index.html); then echo "teste passou"; else exit 1; fi
+if $(grep -q microservices /tmp/src/index.html); then echo "teste passou"; else exit 1; fi
